@@ -1,7 +1,7 @@
 FROM buildpack-deps:stretch-curl
 
 LABEL maintainer="erstaples@gmail.com"
-LABEL description="kubefed2 client"
+LABEL description="kubefed2 (kubernetes federation) client"
 
 ARG KUBEFED2_VERSION=v0.0.2-rc.1
 ARG KUBEBUILDER_VERSION=1.0.4
